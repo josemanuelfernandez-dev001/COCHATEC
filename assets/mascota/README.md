@@ -9,3 +9,11 @@ Archivos requeridos:
 - `CachuTriste.svg` (estado negativo)
 
 Guía permanente para colaboradores: si los archivos finales llegan con variación de extensión (`.Svg`), el responsable de integrar assets en el PR debe renombrarlos a `.svg` antes del commit para mantener consistencia en rutas.
+
+Validación recomendada antes de commit:
+
+```bash
+find assets/mascota -type f \( -name "*.Svg" -o -name "*.SVG" \)
+```
+
+El comando debe retornar vacío para cumplir el estándar de nomenclatura.
