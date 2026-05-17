@@ -8,7 +8,7 @@ Para entender por qué esta propuesta es necesaria, hay que ver el ecosistema VI
 
 **Tres mundos que no se hablan:**
 
-El usuario de VIVA vive fragmentado entre productos que deberían ser uno solo. Tiene su **Viva App** donde gestiona su línea, compra bolsas de megas y acumula puntos en ALVA OMG navegando. Tiene **Pocket** donde guarda $VIVA y USDT, separado, con registro aparte, con sus propios puntos que no tienen nada que ver con los de ALVA. Y tiene su **billetera bancaria** para el resto de su vida financiera — pagar EMTAGAS, transferir dinero, hacer compras online.
+El usuario de VIVA vive fragmentado entre productos que deberían ser uno solo. Tiene su **Viva App** donde gestiona su línea, compra bolsas de megas y acumula puntos en ALVA OMG navegando. Tiene **Pocket** donde guarda $VIVA y USDT, separado, con registro aparte y con una experiencia distinta. Y tiene su **billetera bancaria** para el resto de su vida financiera — pagar EMTAGAS, transferir dinero, hacer compras online.
 
 El resultado es que el usuario abre tres apps distintas para tres cosas distintas, y ninguna de ellas le da un motivo suficientemente fuerte para convertirse en hábito diario. Pocket en particular tiene el problema más grave: el 90% de los usuarios que intentan registrarse abandonan en el KYC, y los que logran entrar no tienen un motivo concreto para volver mañana, porque Pocket hoy es esencialmente una billetera cripto para gente que ya entiende de cripto — un segmento pequeño en Bolivia.
 
@@ -18,9 +18,9 @@ El resultado es que el usuario abre tres apps distintas para tres cosas distinta
 
 VIVA tiene algo que ningún banco boliviano tiene: **una red de telecomunicaciones activa con millones de clientes que ya pagan mensualmente, ya acumulan puntos, y ya usan una app**. Eso es una base de usuarios cautiva que está siendo desaprovechada por Pocket.
 
-Los puntos de ALVA OMG se ganan en Viva App pero se suponen canjear en Pocket — excepto que Pocket y Viva App son cuentas separadas, registros separados, mundos separados. Nadie cierra ese ciclo hoy.
+Los puntos de ALVA OMG ya se reflejan en Viva App y Pocket, pero hoy se generan principalmente dentro de dinámicas digitales del ecosistema. Falta ampliar ese motor al gasto cotidiano del mundo real para aumentar frecuencia de uso.
 
-La **Tarjeta Digital Pocket** es el puente que une todo.
+La **Tarjeta Digital Pocket** es el motor que multiplica ese ecosistema.
 
 ---
 
@@ -56,7 +56,7 @@ Aquí está el núcleo de la propuesta. Cuando el usuario paga con su Pocket Car
 - Gana **puntos ALVA OMG** que se acreditan directamente en su Viva App (los mismos puntos que hoy solo gana navegando en la Super App, ahora los gana comprando en el mundo real)
 - Gana **megas reales** en su línea VIVA (no puntos canjeables por megas, megas directas — diferenciador inmediato frente a cualquier otra billetera)
 - Acumula **$VIVA** en su Pocket como cashback cripto
-- Si la mascota Tata está activa, la transacción suma energía y XP a la mascota
+- Si la mascota Cachu está activa, la transacción suma energía y XP a la mascota
 - Si hay una misión del día activa ("paga con QR hoy"), la transacción la completa y desbloquea la ruleta de premios
 
 **Paso 4 — Los puntos ALVA OMG ahora tienen un uso financiero real**
@@ -84,7 +84,7 @@ Hoy cuando se vence el período de una bolsa de megas, esas megas desaparecen. C
 | **Propuesta de valor frente a bancos** | Ninguna para el usuario promedio | Megas reales por cada compra — algo que ningún banco puede ofrecer jamás |
 | **Propuesta de valor frente a otras billeteras (Soli, Yolo)** | Solo el cripto diferencia | El ecosistema completo VIVA + megas + puntos + EARN — incopiable sin ser operadora |
 | **Mercado informal** | No aplica | Pocket Card QR permite cobrar sin banco, agentes Pocket hacen cash-in en efectivo |
-| **Pasanaku** | No existe en ninguna app boliviana | Digitalizado dentro de Pocket con aportes automáticos y TATA como coordinador |
+| **Pasanaku** | No existe en ninguna app boliviana | Digitalizado dentro de Pocket con aportes automáticos y Cachu como guía |
 
 ---
 
@@ -114,7 +114,7 @@ Además resuelve los tres problemas del desafío de forma simultánea:
 
 **Engagement:**
 
-- Mascota Tata con racha diaria
+- Mascota Cachu con racha diaria
 - Misión del día
 - Ruleta de premios post-misión
 - Modo Fácil
@@ -124,5 +124,18 @@ Además resuelve los tres problemas del desafío de forma simultánea:
 - Pasanaku digital
 - Loop viral (enviar $VIVA a número sin cuenta → SMS de invitación)
 - Agente Pocket para cash-in en efectivo
-- Asistente TATA con casos de uso reales ligados a la tarjeta y el pasanaku
+- Asistente Cachu con casos de uso reales ligados a la tarjeta y el pasanaku
 - KYC progresivo por niveles (0, 1, 2)
+
+---
+
+### Lineamientos de diseño visual (rediseño)
+
+- Mantener la colorimetría base actual del ecosistema VIVA/ALVA sin alteraciones de tono principales.
+- No usar emojis en interfaz, copies ni estados; todo apoyo visual debe resolverse con iconografía o ilustración SVG.
+- Reemplazar toda mención y representación de Tata por Cachu en nombre, tono y narrativa de producto.
+- Definir los estados de mascota con los siguientes assets:
+  - `assets/mascota/Cachu.svg` (estado neutro)
+  - `assets/mascota/CachuFeliz.svg` (logros, recompensas, racha cumplida)
+  - `assets/mascota/CachuTriste.svg` (pérdida de racha, misión incompleta)
+- Mantener consistencia visual en cards, badges y componentes de recompensa usando esos estados SVG y no variantes rasterizadas.
