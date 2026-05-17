@@ -4,7 +4,7 @@ set -euo pipefail
 invalid_files="$(git diff --cached --name-only | grep -E '^assets/mascota/.*\.(Svg|SVG)$' || true)"
 
 if [[ -n "$invalid_files" ]]; then
-  echo "Error: usa extensión .svg en minúsculas para assets de mascota."
-  echo "$invalid_files"
+  echo "Error: usa extensión .svg en minúsculas para assets de mascota. Archivos inválidos:"
+  echo "$invalid_files" | cat
   exit 1
 fi

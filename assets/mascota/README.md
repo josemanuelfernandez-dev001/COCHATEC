@@ -8,7 +8,7 @@ Archivos requeridos:
 - `CachuFeliz.svg` (estado positivo)
 - `CachuTriste.svg` (estado negativo)
 
-Guía permanente para colaboradores: si los archivos finales llegan con variación de extensión (`.Svg`), el responsable de integrar assets en el PR debe renombrarlos a `.svg` antes del commit para mantener consistencia en rutas.
+Guía permanente para colaboradores: si los archivos finales llegan con variación de extensión (`.Svg` o `.SVG`), el responsable de integrar assets en el PR debe renombrarlos a `.svg` antes del commit para mantener consistencia en rutas.
 
 Validación recomendada antes de commit:
 
