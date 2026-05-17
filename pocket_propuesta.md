@@ -84,7 +84,7 @@ Hoy cuando se vence el período de una bolsa de megas, esas megas desaparecen. C
 | **Propuesta de valor frente a bancos** | Ninguna para el usuario promedio | Megas reales por cada compra — algo que ningún banco puede ofrecer jamás |
 | **Propuesta de valor frente a otras billeteras (Soli, Yolo)** | Solo el cripto diferencia | El ecosistema completo VIVA + megas + puntos + EARN — incopiable sin ser operadora |
 | **Mercado informal** | No aplica | Pocket Card QR permite cobrar sin banco, agentes Pocket hacen cash-in en efectivo |
-| **Pasanaku** | No existe en ninguna app boliviana | Digitalizado dentro de Pocket con aportes automáticos y Cachu como asistente IA y coordinador del grupo |
+| **Pasanaku** | No existe en ninguna app boliviana | Digitalizado dentro de Pocket con aportes automáticos y Cachu como asistente IA del grupo |
 
 ---
 
