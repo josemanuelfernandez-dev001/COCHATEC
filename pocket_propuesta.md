@@ -131,7 +131,7 @@ Además resuelve los tres problemas del desafío de forma simultánea:
 
 ### Lineamientos de diseño visual (rediseño)
 
-- Mantener la colorimetría base actual del ecosistema VIVA/ALVA sin alteraciones de tono principales.
+- Mantener la colorimetría base actual del ecosistema VIVA/ALVA sin alteraciones de tonos principales.
 - No usar emojis en interfaz, copies ni estados; todo apoyo visual debe resolverse con iconografía o ilustración SVG.
 - Reemplazar toda mención y representación de la mascota anterior por Cachu en nombre, tono y narrativa de producto.
 - Definir los estados de mascota con los siguientes assets:
