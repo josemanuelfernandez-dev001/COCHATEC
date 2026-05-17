@@ -138,5 +138,5 @@ Además resuelve los tres problemas del desafío de forma simultánea:
   - `assets/mascota/Cachu.svg` (estado neutro)
   - `assets/mascota/CachuFeliz.svg` (logros, recompensas, racha cumplida)
   - `assets/mascota/CachuTriste.svg` (pérdida de racha, misión incompleta)
-- Estándar esperado de cada SVG final: `viewBox` definido, dimensiones responsivas, tamaño recomendado menor a 100 KB por archivo y solo estilos inline estrictamente funcionales (ejemplo permitido: `fill` puntual en un path; ejemplo no permitido: bloques extensos `style` para maquetación completa).
+- Estándar esperado de cada SVG final: `viewBox` definido, dimensiones responsivas, tamaño recomendado menor a 100 KB por archivo (para cuidar rendimiento y tiempo de carga) y solo estilos inline estrictamente funcionales (ejemplo permitido: `fill` puntual en un path; ejemplo no permitido: bloques extensos `style` para maquetación completa). Si excede 100 KB, optimizar con SVGO o simplificar paths antes de integrar.
 - Mantener consistencia visual en cards, badges y componentes de recompensa usando esos estados SVG y no variantes rasterizadas.

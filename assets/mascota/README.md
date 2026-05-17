@@ -23,3 +23,5 @@ Opcional para enforcement local automático:
 ```bash
 git config core.hooksPath .githooks
 ```
+
+Nota: el hook está implementado en Bash; para ejecutarlo localmente se requiere entorno con `bash` disponible.
