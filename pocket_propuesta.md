@@ -84,7 +84,7 @@ Hoy cuando se vence el período de una bolsa de megas, esas megas desaparecen. C
 | **Propuesta de valor frente a bancos** | Ninguna para el usuario promedio | Megas reales por cada compra — algo que ningún banco puede ofrecer jamás |
 | **Propuesta de valor frente a otras billeteras (Soli, Yolo)** | Solo el cripto diferencia | El ecosistema completo VIVA + megas + puntos + EARN — incopiable sin ser operadora |
 | **Mercado informal** | No aplica | Pocket Card QR permite cobrar sin banco, agentes Pocket hacen cash-in en efectivo |
-| **Pasanaku** | No existe en ninguna app boliviana | Digitalizado dentro de Pocket con aportes automáticos y Cachu como asistente coordinador |
+| **Pasanaku** | No existe en ninguna app boliviana | Digitalizado dentro de Pocket con aportes automáticos y Cachu como asistente IA coordinador |
 
 ---
 
@@ -124,7 +124,7 @@ Además resuelve los tres problemas del desafío de forma simultánea:
 - Pasanaku digital
 - Loop viral (enviar $VIVA a número sin cuenta → SMS de invitación)
 - Agente Pocket para cash-in en efectivo
-- Asistente Cachu con casos de uso reales ligados a la tarjeta y el pasanaku
+- Asistente IA Cachu con casos de uso reales ligados a la tarjeta y el pasanaku
 - KYC progresivo por niveles (0, 1, 2)
 
 ---
