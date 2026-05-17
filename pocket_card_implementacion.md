@@ -223,6 +223,23 @@ Para mantener el scope, estas cosas quedan fuera y el código no debe asumirlas:
 - Integración real con APIs de VIVA o ALVA OMG (todo simulado en `viva_link`)
 - Pasarela de pago real (la carga de saldo es vía endpoint directo)
 - QR escaneable real (el "pago QR" es un formulario donde se ingresa monto)
-- Pasanaku, modo offline, asistente IA TATA, mascota, racha, misión, ruleta
+- Pasanaku, modo offline, asistente IA Cachu, mascota, racha, misión, ruleta
 - Notificaciones push reales
 - Comercios identificables (todas las transacciones son genéricas)
+
+---
+
+### 9. Guía de assets y UI para mascota (Cachu)
+
+Para mantener consistencia de diseño en el rediseño:
+
+- No usar emojis en UI ni microcopys de estado.
+- Mantener paleta cromática actual de marca sin cambios de colorimetría principal.
+- Cargar únicamente assets SVG para la mascota, con estos nombres:
+  - `assets/mascota/Cachu.svg`
+  - `assets/mascota/CachuFeliz.svg`
+  - `assets/mascota/CachuTriste.svg`
+- Estados sugeridos de uso:
+  - `Cachu.svg`: estado por defecto en Home y tarjeta.
+  - `CachuFeliz.svg`: canje exitoso, misión completada, racha activa.
+  - `CachuTriste.svg`: racha perdida, saldo insuficiente, misión vencida.
