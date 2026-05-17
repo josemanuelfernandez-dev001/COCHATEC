@@ -84,7 +84,7 @@ Hoy cuando se vence el período de una bolsa de megas, esas megas desaparecen. C
 | **Propuesta de valor frente a bancos** | Ninguna para el usuario promedio | Megas reales por cada compra — algo que ningún banco puede ofrecer jamás |
 | **Propuesta de valor frente a otras billeteras (Soli, Yolo)** | Solo el cripto diferencia | El ecosistema completo VIVA + megas + puntos + EARN — incopiable sin ser operadora |
 | **Mercado informal** | No aplica | Pocket Card QR permite cobrar sin banco, agentes Pocket hacen cash-in en efectivo |
-| **Pasanaku** | No existe en ninguna app boliviana | Digitalizado dentro de Pocket con aportes automáticos y Cachu como asistente IA del grupo |
+| **Pasanaku** | No existe en ninguna app boliviana | Digitalizado dentro de Pocket con aportes automáticos y Cachu como asistente IA |
 
 ---
 
@@ -124,7 +124,7 @@ Además resuelve los tres problemas del desafío de forma simultánea:
 - Pasanaku digital
 - Loop viral (enviar $VIVA a número sin cuenta → SMS de invitación)
 - Agente Pocket para cash-in en efectivo
-- Asistente IA Cachu con casos de uso reales ligados a la tarjeta y el pasanaku
+- Cachu como asistente IA con casos de uso reales ligados a la tarjeta y el pasanaku
 - KYC progresivo por niveles (0, 1, 2)
 
 ---
@@ -138,5 +138,5 @@ Además resuelve los tres problemas del desafío de forma simultánea:
   - `assets/mascota/Cachu.svg` (estado neutro)
   - `assets/mascota/CachuFeliz.svg` (logros, recompensas, racha cumplida)
   - `assets/mascota/CachuTriste.svg` (pérdida de racha, misión incompleta)
-- Estándar esperado de cada SVG final: `viewBox` definido, dimensiones responsivas, sin estilos inline innecesarios y tamaño recomendado menor a 200 KB por archivo.
+- Estándar esperado de cada SVG final: `viewBox` definido, dimensiones responsivas, tamaño recomendado menor a 200 KB por archivo y solo estilos inline estrictamente funcionales (ejemplo permitido: `fill` puntual en un path; ejemplo no permitido: bloques extensos `style` para maquetación completa).
 - Mantener consistencia visual en cards, badges y componentes de recompensa usando esos estados SVG y no variantes rasterizadas.

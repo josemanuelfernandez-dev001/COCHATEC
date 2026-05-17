@@ -17,3 +17,9 @@ find assets/mascota -type f \( -name "*.Svg" -o -name "*.SVG" \)
 ```
 
 El comando debe retornar vacío para cumplir el estándar de nomenclatura.
+
+Opcional para enforcement local automático:
+
+```bash
+git config core.hooksPath .githooks
+```
